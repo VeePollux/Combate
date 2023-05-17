@@ -1,0 +1,63 @@
+
+.btAleatorio{
+    -fx-background-color:#3700ff;
+    -fx-text-fill: white;
+    -fx-start-margin: 80;
+
+}
+
+.btAleatorio:hover{
+    -fx-background-color:#a31616;
+}
+.btManual{
+    -fx-background-color: #3700ff;
+    -fx-text-fill: white;
+    -fx-start-margin: 80;
+}
+
+.btManual:hover{
+    -fx-background-color:#a31616;
+}
+
+.btJogar:hover{
+    -fx-background-color:#a31616;
+}
+.btJogar{
+    -fx-background-color: #3700ff;
+    -fx-text-fill: white;
+    -fx-start-margin: 80;
+}
+
+.btDebug:hover{
+    -fx-background-color:#a31616;
+}
+.btDebug{
+    -fx-background-color: #3700ff;
+    -fx-text-fill: white;
+    -fx-start-margin: 80;
+}
+
+.btVoltar:hover{
+    -fx-background-color:#a31616;
+}
+.btVoltar{
+    -fx-background-color: #3700ff;
+    -fx-text-fill: white;
+    -fx-start-margin: 80;
+}
+
+.btDebug:hover{
+    -fx-background-color:#a31616;
+}
+.btDebug{
+    -fx-background-color: #3700ff;
+    -fx-text-fill: white;
+    -fx-start-margin: 80;
+}
+
+.GPTabuleiro{
+    -fx-background-color: #daf2d8;
+}
+
+
+

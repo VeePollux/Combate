@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.FinalSceneAController">
+   <children>
+      <Button fx:id="btRestart" layoutX="639.0" layoutY="369.0" mnemonicParsing="false" onAction="#onRestartButtonClick" prefHeight="37.0" prefWidth="271.0" styleClass="btVoltar" stylesheets="@StyleCSS.css" text="Restart">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btSair" layoutX="788.0" layoutY="478.0" mnemonicParsing="false" onAction="#onSairButtonClick" prefHeight="37.0" prefWidth="122.0" styleClass="btVoltar" stylesheets="@StyleCSS.css" text="Sair">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbPrincipal" alignment="CENTER" layoutX="143.0" layoutY="48.0" prefHeight="96.0" prefWidth="659.0">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b50b0b" />
+                  <Stop color="#2f00ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="lbSecundaria" alignment="CENTER" layoutX="151.0" layoutY="204.0" prefHeight="96.0" prefWidth="659.0">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b50b0b" />
+                  <Stop color="#2f00ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="btNovoJogo" layoutX="639.0" layoutY="427.0" mnemonicParsing="false" onAction="#onNovoJogoButtonClick" prefHeight="37.0" prefWidth="271.0" styleClass="btVoltar" stylesheets="@StyleCSS.css" text="Novo Jogo">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
